@@ -77,4 +77,5 @@ async function fetchAndDisplayData(){
         const {id, name, Gender,Department,Salary} = Dep
         const li = document.createElement('li');
     });
-}           
+};
+      
