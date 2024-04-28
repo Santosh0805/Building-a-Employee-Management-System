@@ -1,0 +1,17 @@
+body{
+    display:block;
+    /* border: 1px solid black; */
+
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;            
+    display: flex;
+    justify-content: center;
+}
+#filter{
+    display: flex;
+    justify-content: center;
+    
+    
+}
