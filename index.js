@@ -56,6 +56,7 @@ document.getElementById('sortBySalary').addEventListener('change', () =>{
  const url ='https://dbioz2ek0e.execute-api.ap-south-1.amazonaws.com/mockapi/get-employees?page=1&limit=10&filterBy=gender&filterValue=female&sort=salary&order=${order}';
 
 });
+// Button
 
 document.getElementById('nextPage').addEventListener('click',()=>{
 
@@ -78,4 +79,4 @@ async function fetchAndDisplayData(){
         const li = document.createElement('li');
     });
 };
-      
+
